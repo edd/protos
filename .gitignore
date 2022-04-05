@@ -1,3 +1,4 @@
+node_modules
 *.go-re
 .metals
 .vscode

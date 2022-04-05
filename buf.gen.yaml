@@ -20,3 +20,9 @@ plugins:
       - grpc_api_configuration=sources/vega/grpc-rest-bindings.yml
       - paths=source_relative
     strategy: all
+  - name: ts
+    opt:
+      - forceLong=string
+    out: ./generated/ts
+    strategy: all
+    path: ./node_modules/ts-proto/protoc-gen-ts_proto
