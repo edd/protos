@@ -83,7 +83,7 @@ func (x Market_State) Enum() *Market_State {
 	return p
 }
 
-func (x Market_State) String() string {
+func (x Market_State) NonDeterministicString() string {
 	return protoimpl.X.EnumStringOf(x.Descriptor(), protoreflect.EnumNumber(x))
 }
 
@@ -144,7 +144,7 @@ func (x Market_TradingMode) Enum() *Market_TradingMode {
 	return p
 }
 
-func (x Market_TradingMode) String() string {
+func (x Market_TradingMode) NonDeterministicString() string {
 	return protoimpl.X.EnumStringOf(x.Descriptor(), protoreflect.EnumNumber(x))
 }
 
@@ -192,7 +192,7 @@ func (x *AuctionDuration) Reset() {
 	}
 }
 
-func (x *AuctionDuration) String() string {
+func (x *AuctionDuration) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -256,7 +256,7 @@ func (x *Future) Reset() {
 	}
 }
 
-func (x *Future) String() string {
+func (x *Future) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -339,7 +339,7 @@ func (x *OracleSpecToFutureBinding) Reset() {
 	}
 }
 
-func (x *OracleSpecToFutureBinding) String() string {
+func (x *OracleSpecToFutureBinding) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -395,7 +395,7 @@ func (x *InstrumentMetadata) Reset() {
 	}
 }
 
-func (x *InstrumentMetadata) String() string {
+func (x *InstrumentMetadata) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -455,7 +455,7 @@ func (x *Instrument) Reset() {
 	}
 }
 
-func (x *Instrument) String() string {
+func (x *Instrument) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -554,7 +554,7 @@ func (x *LogNormalRiskModel) Reset() {
 	}
 }
 
-func (x *LogNormalRiskModel) String() string {
+func (x *LogNormalRiskModel) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -621,7 +621,7 @@ func (x *LogNormalModelParams) Reset() {
 	}
 }
 
-func (x *LogNormalModelParams) String() string {
+func (x *LogNormalModelParams) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -684,7 +684,7 @@ func (x *SimpleRiskModel) Reset() {
 	}
 }
 
-func (x *SimpleRiskModel) String() string {
+func (x *SimpleRiskModel) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -741,7 +741,7 @@ func (x *SimpleModelParams) Reset() {
 	}
 }
 
-func (x *SimpleModelParams) String() string {
+func (x *SimpleModelParams) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -822,7 +822,7 @@ func (x *ScalingFactors) Reset() {
 	}
 }
 
-func (x *ScalingFactors) String() string {
+func (x *ScalingFactors) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -885,7 +885,7 @@ func (x *MarginCalculator) Reset() {
 	}
 }
 
-func (x *MarginCalculator) String() string {
+func (x *MarginCalculator) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -942,7 +942,7 @@ func (x *TradableInstrument) Reset() {
 	}
 }
 
-func (x *TradableInstrument) String() string {
+func (x *TradableInstrument) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1041,7 +1041,7 @@ func (x *FeeFactors) Reset() {
 	}
 }
 
-func (x *FeeFactors) String() string {
+func (x *FeeFactors) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1104,7 +1104,7 @@ func (x *Fees) Reset() {
 	}
 }
 
-func (x *Fees) String() string {
+func (x *Fees) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1159,7 +1159,7 @@ func (x *PriceMonitoringTrigger) Reset() {
 	}
 }
 
-func (x *PriceMonitoringTrigger) String() string {
+func (x *PriceMonitoringTrigger) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1221,7 +1221,7 @@ func (x *PriceMonitoringParameters) Reset() {
 	}
 }
 
-func (x *PriceMonitoringParameters) String() string {
+func (x *PriceMonitoringParameters) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1272,7 +1272,7 @@ func (x *PriceMonitoringSettings) Reset() {
 	}
 }
 
-func (x *PriceMonitoringSettings) String() string {
+func (x *PriceMonitoringSettings) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1332,7 +1332,7 @@ func (x *LiquidityMonitoringParameters) Reset() {
 	}
 }
 
-func (x *LiquidityMonitoringParameters) String() string {
+func (x *LiquidityMonitoringParameters) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1397,7 +1397,7 @@ func (x *TargetStakeParameters) Reset() {
 	}
 }
 
-func (x *TargetStakeParameters) String() string {
+func (x *TargetStakeParameters) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1476,7 +1476,7 @@ func (x *Market) Reset() {
 	}
 }
 
-func (x *Market) String() string {
+func (x *Market) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
@@ -1601,7 +1601,7 @@ func (x *MarketTimestamps) Reset() {
 	}
 }
 
-func (x *MarketTimestamps) String() string {
+func (x *MarketTimestamps) NonDeterministicString() string {
 	return protoimpl.X.MessageStringOf(x)
 }
 
